@@ -2,7 +2,7 @@ import { createBrowserRouter as Router } from 'react-router-dom';
 import App from '../App';
 import Home from '../Component/Home/Home';
 import Search from '../Component/Pages/Search';
-import DetailsPage from '../Component/Details/detailsPage';
+import DetailsPage from '../Component/Details/DetailsPage';
 import MovieList from '../Component/Movies/MovieList';
 import TvShowsList from '../Component/TV/TvShowsList';
 import TrendingShow from '../Component/Trending/TrendingShow';
