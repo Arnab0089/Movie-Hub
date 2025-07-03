@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { FaFilm, FaBars, FaTimes } from 'react-icons/fa';
 import user from '../../../public/user-1.png';
-import search from '../../../public/Search.png';
+import search_home from '../../../public/Search.png';
 import { debounce } from 'lodash';
 
 export default function Header() {
@@ -91,7 +91,7 @@ export default function Header() {
               onChange={(e) => setSearch(e.target.value)}
             />
             <button type="submit">
-              <img src={search} alt="Search Icon" className="w-5 h-5" />
+              <img src={search_home} alt="Search Icon" className="w-5 h-5" />
             </button>
           </form>
 
@@ -120,7 +120,7 @@ export default function Header() {
             onChange={(e) => setSearch(e.target.value)}
           />
           <button type="submit">
-            <img src={search} alt="Search Icon" className="w-5 h-5" />
+            <img src={search_home} alt="Search Icon" className="w-5 h-5" />
           </button>
         </form>
       </div>
