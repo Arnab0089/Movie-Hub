@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { FaFilm, FaBars, FaTimes } from 'react-icons/fa';
-import user from '../../../public/user-1.png';
-import search_home from '../../../public/Search.png';
+
 import { debounce } from 'lodash';
 
 export default function Header() {
