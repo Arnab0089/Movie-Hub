@@ -91,12 +91,12 @@ export default function Header() {
               onChange={(e) => setSearch(e.target.value)}
             />
             <button type="submit">
-              <img src={search_home} alt="Search Icon" className="w-5 h-5" />
+              <img src='/search.png' alt="Search Icon" className="w-5 h-5" />
             </button>
           </form>
 
           <div className="w-8 h-8 rounded-full overflow-hidden">
-            <img src={user} alt="user" className="w-full h-full object-cover" />
+            <img src='/user-1.png' alt="user" className="w-full h-full object-cover" />
           </div>
 
           <button
